@@ -1,2 +1,4 @@
 *.pdash
 .DS_Store
+*.zip
+*.pdash
