@@ -1,7 +1,7 @@
 from list import LinkedList
 
 
-N = int(input('Dados: '))
+N = int(input('Qtde de dados: '))
 
 ll = LinkedList()
 
