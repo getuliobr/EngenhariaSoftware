@@ -6,7 +6,7 @@ N = int(input('Dados: '))
 ll = LinkedList()
 
 for i in range(N):
-    x, y = map(int, input().split(' '))
+    x, y = map(float, input("X Y separado por espaco: ").split(' '))
     ll.add(x, y)
 
 b0, b1 = ll.linearRegression()
@@ -17,5 +17,5 @@ print('b1 = {:.4f}'.format(b1))
 print('r = {:.4f}'.format(r))
 print('r^2 = {:.4f}'.format(rr))
 
-x = int(input('Estimar: '))
+x = float(input('Estimar: '))
 print('y = {:.3f}'.format(ll.estimate(x)))
