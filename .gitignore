@@ -2,3 +2,5 @@
 .DS_Store
 *.zip
 *.pdash
+__pycache__/
+.pytest_cache/
